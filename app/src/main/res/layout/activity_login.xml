@@ -12,32 +12,41 @@
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:text="Aplicaciones Móviles"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="#FFFFFF"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/tv_subtitle"
-        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Imagen entre título y subtítulo -->
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:textAlignment="center" />
+        android:src="@drawable/logo"
+    app:layout_constraintTop_toBottomOf="@id/tv_title"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- Subtítulo -->
     <TextView
         android:id="@+id/tv_subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
         android:text="Gestor de Proyectos\nEstudiante: Kevin Calderón\nIngeniería de Software"
-        android:textSize="16sp"
         android:textAlignment="center"
         android:textColor="#CCCCCC"
-        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/iv_logo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/ll_container"
-        android:layout_marginBottom="24dp" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- Contenedor centrado con campos -->
     <LinearLayout
