@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="colorPrimary">#0288D1</color> <!-- Azul oscuro -->
+    <color name="colorPrimaryVariant">#01579B</color> <!-- Azul más oscuro -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Texto blanco en primario -->
+    <color name="colorSecondary">#388E3C</color> <!-- Verde oscuro -->
+    <color name="colorSecondaryVariant">#1B5E20</color> <!-- Verde más oscuro -->
+    <color name="colorOnSecondary">#FFFFFF</color> <!-- Texto blanco en secundario -->
+    <color name="colorBackground">#121212</color> <!-- Fondo gris muy oscuro -->
+    <color name="colorSurface">#1E1E1E</color> <!-- Superficie gris oscuro -->
+    <color name="colorOnSurface">#E0E0E0</color> <!-- Texto gris claro en superficies -->
+    <color name="colorOnBackground">#E0E0E0</color> <!-- Texto gris claro en fondo -->
+    <color name="colorError">#CF6679</color> <!-- Rojo para errores -->
+    <color name="colorOnError">#FFFFFF</color> <!-- Texto blanco en errores -->
+</resources>
